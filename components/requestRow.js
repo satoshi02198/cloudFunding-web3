@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Button, Message, Table } from "semantic-ui-react";
+import { Button, Table } from "semantic-ui-react";
 import web3 from "../ethereum/web3";
 import Campaign from "../ethereum/campaign";
 import { Router } from "../routes";

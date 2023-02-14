@@ -76,7 +76,9 @@ class CampaignShow extends Component {
           <Grid.Row>
             <Grid.Column>
               <Link route={`/campaigns/${this.props.address}/requests`}>
-                <Button primary>View Requests</Button>
+                <a>
+                  <Button primary>View Requests</Button>
+                </a>
               </Link>
             </Grid.Column>
           </Grid.Row>
