@@ -1,0 +1,30 @@
+{
+  "name": "web3-cloudfunding",
+  "version": "1.0.0",
+  "description": "",
+  "main": "routes.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.1.6",
+    "fs-extra": "^11.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.2.0",
+    "next": "^13.1.6",
+    "next-routes": "^1.4.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "solc": "^0.8.9",
+    "web3": "^1.8.2"
+  }
+}
