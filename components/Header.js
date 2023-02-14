@@ -5,17 +5,16 @@ import { Link } from "../routes";
 const Header = () => {
   return (
     <Menu style={{ marginTop: "10px" }}>
-      <Link route="/" className="item">
-        <a>CrowdCoin</a>
+      <Link route="/">
+        <a className="item">CrowdCoin</a>
       </Link>
-
       <Menu.Menu position="right">
-        <Link route="/" className="item">
-          <a>Campaigns</a>
+        <Link route="/">
+          <a className="item">Campaigns</a>
         </Link>
 
-        <Link route="/campaigns/new" className="item">
-          <a> +</a>
+        <Link route="/campaigns/new">
+          <a className="item">+</a>
         </Link>
       </Menu.Menu>
     </Menu>
